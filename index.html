@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planejamento de aula</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!----cabeçalho-->
+    <header>
+        <h1>Planejamento de aula</h1>
+    </header>
+
+    <!----conteúdo principal-->
+    <main>
+        <h2>Planeje sua aula</h2>
+        <p>Preencha as informações abaixo para iniciar a elaboração do planejamento de sua aula.</p>
+        <form>
+            <label for="tema">Tema geral:</label>
+            <input id="tema" name="tema" placeholder="Digite aqui">
+
+             <label for="indicador">Indicador de aula:</label>
+            <input id="indicador" name="indicador" placeholder="Digite aqui">
+
+             <label for="objetivo">Objetivo geral:</label>
+            <textarea id="objetivo" name="objetivo" placeholder="Digite aqui" rows="8"></textarea>          
+            <button type="submit">Gerar planejamento</button>
+        </form>
+
+        <div id="toast" class="toast">
+            <p id="toast-text"></p>
+        </div>
+    </main>
+
+    <!---conteúdo do rodapé-->
+    <footer>
+
+    </footer>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
